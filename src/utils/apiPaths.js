@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:8000";
+export const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 export const API_PATHS = {
   AUTH: {
@@ -24,7 +24,7 @@ export const API_PATHS = {
     DELETE_TASK: (taskId) => `/api/tasks/${taskId}`,
 
     UPDATE_TASK_STATUS: (taskId) => `/api/tasks/${taskId}/status`,
-    UPDATE_TODO_CHECKLIST: (taskId) => `/api/tasks/${taskId}/todo`,
+    UPDATE_TODO_CHECKLIST: (taskId) => `/api/tasks/${tasksId}/todo`,
   },
   REPORTS: {
     EXPORT_TASKS: "/api/reports/exports/tasks",
