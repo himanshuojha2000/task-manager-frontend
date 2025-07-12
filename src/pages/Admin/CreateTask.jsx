@@ -10,7 +10,7 @@ import { LuTrash2, LuTrash } from "react-icons/lu";
 import SelectDropdown from "../../components/Inputs/SelectDropdown";
 import SelectUsers from "../../components/Inputs/SelectUsers";
 import TodoListInput from "../../components/Inputs/TodoListInput";
-import AddAttachmentsInput from "../../components/Inputs/AddAttachmentsinput";
+import AddAttachmentsInput from "../../components/Inputs/AddAttachmentsInput";
 import Modal from "../../components/Modal";
 import DeleteAlert from "../../components/DeleteAlert";
 const CreateTask = () => {
